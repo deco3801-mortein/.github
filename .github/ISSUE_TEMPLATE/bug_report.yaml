@@ -1,0 +1,54 @@
+name: Bug Report
+description: File a bug report
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the bug.
+      placeholder: Bug description
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce-steps
+    attributes:
+      label: How To Reproduce
+      description: Please provide a minimal reproducible example or steps to reproduce the behaviour of the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: It should...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Please provide any additional details about the bug and its environment.
+      placeholder: |
+        - Do you have relevant screenshots?
+        - Do you have any other information that might be helpful?
+        - Tell us about where you are seeing the problem.
+          - Device
+          - Operating System
+          - Browser
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log Output
+      description: Please enter any relevant output as plain text.
+      render: shell
