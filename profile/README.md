@@ -196,7 +196,8 @@ configuration. The MQTT client ID can be any string.
 
 - **Frontend** - React, Vite, AWS Amplify, Perenual Plant API
 - **Backend** - AWS IoT Core MQTT Broker, an RDS Database
-- **Embedded Development** - ESP32 microcontroller (Arduino Uno ESP32), Capacitive Soil Moisture Sensor,
+- **Embedded Development** - ESP32 microcontroller (Arduino Uno ESP32), Capacitive Soil Moisture Sensor,​Linear resonant actuator with motor driver,​Light intensity sensor ,
+- ​Temperature and humidity sensor,​LED circuit board indicator bar, ​Green LED and RGB LED, ​MAX7219 LED matrix driver IC, Pushbutton, Switch, ​4×AAA battery holder 
 
 ## ✍️ Authors <a name = "authors"></a>
 
