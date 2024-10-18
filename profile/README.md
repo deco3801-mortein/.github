@@ -140,12 +140,13 @@ configuration. The MQTT client ID can be any string.
 # Queue Handler 
 
 ## Overview
-This lambda function takes payload data from an IoT Core Rule invocation and adds it to an RDS database. It uses a custom serializer to take in the payload data and converts it to a class from the Mortein.Types package. Then EF Core is used to upload the data to the database.
+A lambda function that takes payload data from an IoT Core Rule invocation and adds it to an RDS database. It uses a custom serializer to take in the payload data and converts it to a class from the Mortein.Types package. Then EF Core is used to upload the data to the database.
 
 ## Setup
-1. Clone the repo and start the dev container. 
-2. Deploy the lambda function to AWS using `dotnet lambda deploy-function`
-3. Create an IoT Core rule that is triggered with your chosen topic (# for wildcard) which invokes the deployed function. A sample is provided below:
+1. Clone the repo and start the dev container.
+2. Ensure you have an active github token to authenticate to Github Packages, a guide can be found here: https://docs.github.com/en/packages/learn-github-packages/about-permissions-for-github-packages.
+3. Deploy the lambda function to AWS using `dotnet lambda deploy-function`
+4. Create an IoT Core rule that is triggered with your chosen topic (# for wildcard) which invokes the deployed function. A sample is provided below:
     ```
     SELECT 
     DeviceId,
