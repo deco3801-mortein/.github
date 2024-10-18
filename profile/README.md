@@ -98,9 +98,6 @@ connected over USB. This will print all Serial logging messages to the console.
 
 # API
 
-In order to authenticate to the AWS MQTT broker, pass a client certificate and private key into
-the following command to generate the required PFX file:
-
 The environment required to build and run this application is defined by this repository's
 dev container [configuration file](https://github.com/deco3801-mortein/api/blob/main/.devcontainer/devcontainer.json).
 
