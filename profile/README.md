@@ -114,8 +114,6 @@ To see basic logging information of the device's operation, select
 `final_prototype > General > Monitor` from the PlatformIO Side Bar while the device is still
 connected over USB. This will print all Serial logging messages to the console.
 
-</br>
-
 ## API
 
 The environment required to build and run this application is defined by this repository's
