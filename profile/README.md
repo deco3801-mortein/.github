@@ -189,7 +189,7 @@ the Mortein.Types package. Then EF Core is used to upload the data to the databa
     `VITE_API_KEY=<your perenual plant API key>`
 
     -   To get the `NPM_AUTH` token:
-        -   Contact us to for access to install our package
+        -   Contact us for access to install our package
         -   Authenticate with npm registry using a personal access token
             ([docs](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)).
     -   To get the `VITE_API_KEY`:
